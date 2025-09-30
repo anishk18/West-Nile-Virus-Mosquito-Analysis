@@ -14,12 +14,11 @@ The dataset contains mosquito trap monitoring records from Chicago with the foll
 
 ## Project Structure
 
-- `notebooks/`: Jupyter notebooks containing analysis
-  - `01_data_cleaning_and_eda.ipynb`: Data wrangling and exploratory analysis
-  - `02_statistical_analysis.ipynb`: Statistical modeling and hypothesis testing
-- `data/`: Raw and processed datasets
-- `src/`: Python utility functions
-- `reports/`: Generated figures and summary reports
+- [notebooks/](notebooks): Jupyter notebooks containing analysis
+  - [`01_data_cleaning_and_eda.ipynb`](notebooks/01_data_cleaning_and_eda.ipynb): Data wrangling and exploratory analysis
+  - [`02_statistical_analysis.ipynb`](notebooks/02_statistical_analysis.ipynb): Statistical modeling and hypothesis testing
+- [data/](data): Raw and processed datasets
+
 
 ## Key Findings
 

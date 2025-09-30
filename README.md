@@ -23,20 +23,11 @@ The dataset contains mosquito trap monitoring records from Chicago with the foll
 ## Key Findings
 
 ### Part 1: Data Cleaning & EDA
-- Dataset contains [X] records across [Y] years
-- Identified seasonal patterns in mosquito populations
-- Found species-specific WNV prevalence rates
-
+- Dataset contains [18495] records across [11] years
+- CULEX RESTUANS species-had highest specific WNV prevalence rates
+ 
 ### Part 2: Statistical Analysis
-- Average monthly mosquito counts show peak activity in [summer months]
-- Significant correlation between [variables] and mosquito numbers
-- Logistic regression model achieved [X]% accuracy in WNV prediction
+- Average monthly mosquito counts show peak activity in May-August
+- Significant correlation between all features except trap type and mosquito numbers
+- Logistic regression model achieved [81]% accuracy in WNV prediction
 
-## Requirements
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-scipy>=1.7.0
-scikit-learn>=1.0.0
-jupyter>=1.0.0
